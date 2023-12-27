@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Container {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .MiniContainer {
+    background: #333; /* Fondo gris para el contenido principal */
+    padding: 20px;
+    border: 2px solid #ff0; /* Borde amarillo */
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .modos h2 {
+    margin-top: 20px;
+  }
+  
+  .modos p {
+    margin-bottom: 20px;
+  }
+
+/* ... (otras reglas de estilo) ... */
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+  }
+  
+  .btns a {
+    text-decoration: none;
+  }
+  
+  .btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #ff0; /* Borde amarillo */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Agregando transición para el cambio de color */
+  }
+  
+  .btns button:hover {
+    background-color: #ff0; /* Cambio de color a amarillo al pasar el mouse */
+    color: #000;
+  }
+  
+  /* ... (otras reglas de estilo) ... */
+  

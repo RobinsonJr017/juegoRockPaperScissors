@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugador Vs Maquina</title>
+    <link rel="stylesheet" href="maquina.css">
+</head>
+<body>
+    <header><h1> Piedra, Papel o Tijera </h1></header>
+
+    <div class="container">
+        <h3 class="instrucciones" id="instrucciones"> El primero en llegar a 5 puntos gana</h3>
+
+        <div id="result">
+
+            <h2>Jugador</h2>
+            <img id="user-img" src="imgs/rock.png">
+
+
+            <div id="start-text">
+                Escoge una opciona para comenzar!!!
+            </div>
+
+            <h2>Maquina</h2>
+            <img id="machine-img" src="imgs/rock.png">
+
+        </div>
+
+        <p class="escoge">Escoge tu arma</p>
+
+        <div id="group-btn"> 
+            <button id="rock" type="button">
+                <img src="imgs/rock.png"/>
+            </button>
+            <button id="paper" type="button">
+                <img src="imgs/paper.png"/>
+            </button>
+            <button id="scissors" type="button">
+                <img src="/imgs/scissors.png"/>
+            </button>
+        </div>
+
+        <div class="marcador">
+            <p class="nombre nombre-jugador" >Jugador
+                <img class="usuario" src="/imgs/usuario1 (1).png"
+            </p>
+            <p class="nombre nombre-computadora">Maquina
+                <img class="maquina" src="/imgs/pc (1).png"
+            </p>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-computadoras">0</span>
+            </p>
+        </div>
+
+        <div class="mensaje" id="mensaje" style="display: none;">
+            <p>
+                Usaste <span class="eleccion" id="eleccion-usuario" style="display: none;">papel</span><br>
+                Y la maquina uso <span class="eleccion" id="eleccion-computadora">piedra</span>
+            </p>
+            <p id="gana-punto">Ganaste un punto !!!</p>
+        </div>
+        <button class="btn disable" id="reiniciar">Reinciar Juego</button>
+
+        <footer>Made With, by Robinson Lopez</footer>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
